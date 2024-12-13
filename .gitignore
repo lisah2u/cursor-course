@@ -1,2 +1,4 @@
 /web_to_markdown/.env
 /web_to_markdown/__pycache__/
+.DS_Store
+/web_to_markdown/.DS_Store
