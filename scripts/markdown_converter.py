@@ -4,7 +4,7 @@ from openai import OpenAI
 load_dotenv()
 
 # Initialize the OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI()
 
 # return markdown from url
 def convert_to_markdown(url: str) -> str:
